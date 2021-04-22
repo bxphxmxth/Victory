@@ -16046,5 +16046,123 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.section4 {
+  height: 700px;
+}
+.section4 .container {
+  height: 700px;
+}
+.section4 .container .week {
+  text-align: center;
+  padding: 40px;
+}
+.section4 .container .troiscards {
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section4 .container .troiscards .bleu {
+  background-color: #eceff5;
+}
+.section4 .container .troiscards .breakfast {
+  width: 250px;
+  text-align: center;
+}
+.section4 .container .troiscards .title {
+  font-size: 25px;
+}
+.section4 .container .troiscards .title2 {
+  margin-top: 25px;
+}
+.section4 .container .troiscards .blanc {
+  background-color: white;
+  height: 130px;
+  padding-top: 1px;
+}
+.section4 .container .troiscards .orangee {
+  position: absolute;
+  background-color: #e6dbc7;
+  color: #ff9100;
+  width: 50px;
+  font-size: 14px;
+  margin-left: 200px;
+  margin-top: 125px;
+  text-align: center;
+}
+
+.section5 {
+  background-color: #f2f6ff;
+  height: 780px;
+}
+.section5 .ourblog {
+  color: black;
+  text-align: center;
+  padding-top: 70px;
+}
+.section5 .container {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-evenly;
+}
+.section5 .container .imgsize {
+  width: 110%;
+  height: 200px;
+}
+.section5 .container .card-body {
+  margin-left: 15px;
+}
+.section5 .container .card-body .txtorange {
+  color: #ff7b00;
+}
+.section5 .container .orangee {
+  position: absolute;
+  background-color: #e6dbc7;
+  color: #ff9100;
+  width: 80px;
+  font-size: 14px;
+}
+
+footer {
+  background: url("../../../public/img/signup-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 220px;
+}
+footer .foot1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: transparent solid 3px;
+  height: 100%;
+}
+footer .foot1 .footh3 {
+  color: white;
+  margin-top: 50px;
+  font-size: 15px;
+}
+footer .foot1 .buttonfoot {
+  color: white;
+  background-color: transparent;
+  border: solid white 0.5px;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 10px;
+}
+
+.footer2 {
+  background-color: #454572;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.footer2 .row {
+  width: 900px;
+}
+.footer2 .white {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
 
 /*# sourceMappingURL=app.css.map */

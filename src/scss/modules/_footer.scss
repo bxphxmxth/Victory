@@ -1,0 +1,96 @@
+footer{
+    background:url("../../../public/img/signup-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+    
+    
+    .foot1{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: transparent solid 3px;
+        height: 100%;
+        
+        .footh3{
+            color: white;
+            margin-top: 50px;
+            font-size: 15px;
+
+        }
+
+        .inputfoot{
+
+        }
+
+    .buttonfoot{
+
+        color: white;
+        background-color: transparent;
+        border: solid white 0.5px;
+        border-radius: 5px;
+        padding: 7px;
+        font-size: 10px;
+
+    }    
+
+    }
+}
+
+.footer2{
+    background-color: rgb(69, 69, 114);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+    
+.row{
+
+    width: 900px;
+    
+}
+
+    .white{
+        color: white;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    
+    
+}
+
+@media (min-width : 320px) and (max-width : 640px){
+
+    footer{
+       
+        // height: ;
+    }    
+    
+    
+
+}
+ 
+@media (min-width : 641px) and (max-width : 1007px){
+
+    footer{
+       
+        // height: ;
+    }    
+    
+
+}
+
+
+
+
+@media (min-width : 1008px) {
+
+    footer{
+       
+        // height: ;
+    }    
+    
+
+}
+

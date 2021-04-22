@@ -1,0 +1,76 @@
+.section4{
+
+    height: 700px;
+
+    .container{
+
+        height: 700px;
+
+        .week{
+            text-align: center;
+            padding: 40px;
+        }
+
+        .troiscards{
+            height: 500px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .bleu{
+                background-color: rgb(236, 239, 245);;
+            }
+
+            .breakfast{
+                width: 250px;
+                text-align: center;
+            }
+
+            .title{
+                font-size: 25px;
+            }
+
+            .title2{
+
+                margin-top: 25px;
+
+            }
+
+            .blanc{
+
+                background-color: white;
+                height: 130px;
+                padding-top: 1px;
+                
+                
+                
+
+            }
+
+            .orangee{
+
+                position: absolute;
+                background-color: rgb(230, 219, 199);
+                color: rgb(255, 145, 0);
+                width: 50px;
+                font-size: 14px;
+                margin-left: 200px;
+                margin-top: 125px;
+                text-align: center;
+                
+            }
+
+
+        }
+    }
+
+
+
+
+}
+
+@media (max-width : 991px){
+
+
+    
+}
