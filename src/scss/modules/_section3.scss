@@ -1,0 +1,49 @@
+.banner2{
+    background-image: url("../img/book-bg.jpg");
+    h4{
+        color: white;
+    }
+    .photo2{
+        background-color: white;
+        width: 400px;
+        height: 290px;
+        h1{
+            width: 100%;
+            text-align: center;
+        }
+        button{
+            background-color: rgb(242,116,95);
+            color: white;
+            border-radius: 5%;
+        }
+    }
+    .selecteur{
+        width: 160px;
+    }
+}
+.dessous{
+    width: 100%;
+    background-color: rgb(242,116,95);
+    h3{
+        color: white;
+    }
+    button{
+        border: none;
+        border-radius: 5%;
+        color: rgb(242,116,95);
+    }
+}
+@media (max-width:475px){
+    .dessous{
+        h3{
+            font-size: 15px;
+        }
+    }
+}
+@media (max-width: 770px){
+    .photo1{
+        display: none;
+    }
+}
+
+

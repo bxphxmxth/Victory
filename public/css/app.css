@@ -16046,5 +16046,139 @@ h3 {
     border-color: #dee2e6;
   }
 }
+header {
+  background-color: #eaf0ff;
+}
+
+@media (max-width: 640px) {
+  header div p {
+    font-size: 13px;
+  }
+}
+.banner {
+  background-image: url("../img/banner-bg.jpg");
+}
+.banner .txt {
+  color: white;
+  width: 50%;
+}
+.banner .txt button {
+  background-color: #f2745f;
+  color: white;
+  border: none;
+  border-radius: 3%;
+}
+
+@media (max-width: 420px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 640px) {
+  .banner .txt p {
+    display: none;
+  }
+}
+.rectangle .orange {
+  width: 60%;
+  height: 100%;
+  background-color: #f2745f;
+  color: white;
+  font-weight: bold;
+}
+.rectangle .orange button {
+  background-color: white;
+  color: #f2745f;
+  border-radius: 3%;
+  border: none;
+}
+.rectangle .orange .orange2 {
+  background-color: #f3826f;
+  height: 150px;
+}
+.rectangle .orange .orange2 .div1 {
+  margin-top: 40px;
+  height: 100%;
+  width: 100%;
+}
+.rectangle .orange .orange2 .div1 p:first-of-type {
+  font-weight: normal;
+}
+
+.img {
+  height: 10%;
+  width: 30%;
+}
+
+.img2 {
+  border: solid #eaf0ff 10px;
+  border-radius: 50%;
+}
+
+@media (min-width: 300px) and (max-width: 439px) {
+  .img2 {
+    height: 75px;
+    width: 75px;
+  }
+}
+@media (min-width: 440px) and (max-width: 769px) {
+  .img2 {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media (min-width: 770px) and (max-width: 1007px) {
+  .img2 {
+    height: 150px;
+    width: 150px;
+  }
+}
+.banner2 {
+  background-image: url("../img/book-bg.jpg");
+}
+.banner2 h4 {
+  color: white;
+}
+.banner2 .photo2 {
+  background-color: white;
+  width: 400px;
+  height: 290px;
+}
+.banner2 .photo2 h1 {
+  width: 100%;
+  text-align: center;
+}
+.banner2 .photo2 button {
+  background-color: #f2745f;
+  color: white;
+  border-radius: 5%;
+}
+.banner2 .selecteur {
+  width: 160px;
+}
+
+.dessous {
+  width: 100%;
+  background-color: #f2745f;
+}
+.dessous h3 {
+  color: white;
+}
+.dessous button {
+  border: none;
+  border-radius: 5%;
+  color: #f2745f;
+}
+
+@media (max-width: 475px) {
+  .dessous h3 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 770px) {
+  .photo1 {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */

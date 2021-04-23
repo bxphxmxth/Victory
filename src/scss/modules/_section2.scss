@@ -1,0 +1,59 @@
+.rectangle{
+    .orange{
+        width: 60%;
+        height: 100%;
+        background-color: rgb(242,116,95) ;
+        color: white;
+        font-weight: bold;
+        button{
+                background-color: white;
+                color: rgb(242,116,95) ;
+                border-radius: 3%;
+                border: none;
+                }
+        .orange2{
+            background-color: rgb(243,130,111);
+            height: 150px;
+            .div1{
+                margin-top: 40px;
+                height: 100%;
+                width: 100%;
+                p:first-of-type{
+                font-weight: normal;
+                }
+            }
+        }
+    }
+}
+    .img{
+        height: 10%;
+        width: 30%;
+    }
+    .img2{
+        border: solid $lightblue 10px;
+        border-radius: 50%;
+    }
+
+// media petites images
+
+
+    @media (min-width:300px) and (max-width:439px){
+        .img2{
+            height: 75px;
+            width: 75px;
+        }
+    }
+    @media(min-width:440px) and (max-width:769px){
+        .img2{
+            height: 100px;
+            width: 100px;
+        }
+    }
+
+
+    @media (min-width : 770px) and (max-width :1007px){
+        .img2{
+            height: 150px;
+            width: 150px;
+        }
+    }
