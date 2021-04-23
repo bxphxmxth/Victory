@@ -1,10 +1,8 @@
 .section4{
 
-    height: 700px;
 
     .container{
 
-        height: 700px;
 
         .week{
             text-align: center;
@@ -12,18 +10,89 @@
         }
 
         .troiscards{
-            height: 500px;
             display: flex;
             justify-content: space-evenly;
             align-items: center;
 
+
             .bleu{
-                background-color: rgb(236, 239, 245);;
+                background-color: rgb(236, 239, 245);
             }
 
-            .breakfast{
-                width: 250px;
-                text-align: center;
+            #breakfast{
+                position: relative;
+                width: 100%;
+                height: 200px;
+                background-image: url("../../../public/img/breakfast_item.jpg");
+                background-size: cover;
+                background-position: center;
+                
+
+                .orangee{
+
+                    position: absolute;
+                    background-color: rgb(230, 219, 199);
+                    color: rgb(255, 145, 0);
+                    width: 50px;
+                    font-size: 14px;
+                    text-align: center;
+                    z-index: 1;
+                    bottom: 0;
+                    right: 0;
+                    
+                }
+                
+            }
+
+            #lunch{
+                position: relative;
+                width: 100%;
+                height: 200px;
+                background-image: url("../../../public/img/lunch_item.jpg");
+                background-size: cover;
+                background-position: center;
+
+                .orangee{
+
+                    position: absolute;
+                    background-color: rgb(230, 219, 199);
+                    color: rgb(255, 145, 0);
+                    width: 50px;
+                    font-size: 14px;
+                    text-align: center;
+                    z-index: 1;
+                    bottom: 0;
+                    right: 0;
+                    
+                }
+
+            }
+
+            #dinner{
+
+                position: relative;
+                width: 100%;
+                height: 200px;
+                background-image: url("../../../public/img/dinner_item.jpg");
+                background-size: cover;
+                background-position: center;
+
+                .orangee{
+
+                    position: absolute;
+                    background-color: rgb(230, 219, 199);
+                    color: rgb(255, 145, 0);
+                    width: 50px;
+                    font-size: 14px;
+                    text-align: center;
+                    z-index: 1;
+                    bottom: 0;
+                    right: 0;
+                    
+                }
+
+
+
             }
 
             .title{
@@ -36,29 +105,18 @@
 
             }
 
-            .blanc{
+            // .blanc{
 
-                background-color: white;
-                height: 130px;
-                padding-top: 1px;
+            //     background-color: white;
+            //     height: 130px;
+            //     padding-top: 1px;
                 
                 
                 
 
-            }
+            // }
 
-            .orangee{
-
-                position: absolute;
-                background-color: rgb(230, 219, 199);
-                color: rgb(255, 145, 0);
-                width: 50px;
-                font-size: 14px;
-                margin-left: 200px;
-                margin-top: 125px;
-                text-align: center;
-                
-            }
+            
 
 
         }
@@ -69,7 +127,49 @@
 
 }
 
-@media (max-width : 991px){
+@media (min-width : 320px) and (max-width : 767px){
+
+    .troiscards{
+
+        flex-direction: column;
+
+        .blanc{
+
+            background-color: white;
+            height: 130px;
+            padding-top: 1px;
+            
+            
+            
+
+        }
+    }
+
+
+    
+}
+
+
+@media (min-width : 768px) and (max-width : 1240px){
+
+    .troiscards{
+
+       
+        .blanc{
+            height: 500px;
+        }
+        
+        .blanc{
+
+            background-color: white;
+            height: 190px;
+            padding-top: 1px;
+            
+            
+            
+
+        }
+    }
 
 
     
